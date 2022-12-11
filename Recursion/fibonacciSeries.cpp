@@ -18,6 +18,14 @@ int main()
     int n;
     cout << "Enter nth term, you want to find of Fibonacii series" << endl;
     cin >> n;
-    cout << "The " << n << "th term of fibonacii series is: " << fabonaciiNthTerm(n);
+    cout << "The " << n << "th term of fibonacii series is: " << fabonaciiNthTerm(n)<<endl;
+    
+    //print series
+    int i = 0;
+    while (i <= n)
+    {
+        cout << fabonaciiNthTerm(i) << " ";
+        i++;
+    }
     return 0;
 }
