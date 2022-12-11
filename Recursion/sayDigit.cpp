@@ -7,7 +7,7 @@ void sayDigit(int number, string arrOfDigits[])
         return;
     }
     int digit = number % 10; // gives the last digit i.e 432 % 10 = 2
-    number = number / 10;    // updates the number by removing last digit, to one step back i.e 432 / 10 = 43, in cpp '/', operator truncates the decimal points.
+    number = number / 10;    // updates the number by removing last digit, to one step back i.e 432 / 10 = 43, in cpp '/', operator truncates the decimal points(int).
     sayDigit(number, arrOfDigits);
     cout << arrOfDigits[digit] << " ";
 }
