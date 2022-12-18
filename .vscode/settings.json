@@ -4,7 +4,7 @@
         "*.jsx": "javascriptreact",
         "cstdlib": "cpp",
         "algorithm": "cpp",
-        
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp"
     }
 }
