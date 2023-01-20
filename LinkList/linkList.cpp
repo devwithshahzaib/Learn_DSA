@@ -104,6 +104,7 @@ public:
             newNode->next = head;
             head = newNode;
             listLength++;
+            return;
         }
 
         while (nodeIndex > 1)
@@ -184,7 +185,7 @@ int main()
     link.createList();
     link.printList();
     cout << "Length: " << link.getListLength() << endl;
-    link.insertAtIndex(3, 1122);
+    link.insertAtIndex(1, 1122);
     link.printList();
     cout << "Length: " << link.getListLength() << endl;
     link.deleteNode(4);
